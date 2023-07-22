@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cats on a Fridge
+* source:	https://sketchfab.com/3d-models/cats-on-a-fridge-c0ce3a4431664ecab830ced119b21011
+* author:	TropicalMoisture (https://sketchfab.com/TropicalMoisture)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cats on a Fridge" (https://sketchfab.com/3d-models/cats-on-a-fridge-c0ce3a4431664ecab830ced119b21011) by TropicalMoisture (https://sketchfab.com/TropicalMoisture) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

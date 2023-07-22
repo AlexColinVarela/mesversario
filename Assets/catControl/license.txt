@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cattroller
+* source:	https://sketchfab.com/3d-models/cattroller-6df1f908bf504e7c84aed24b92d90aa7
+* author:	Coffeek (https://sketchfab.com/coffe0wolf)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cattroller" (https://sketchfab.com/3d-models/cattroller-6df1f908bf504e7c84aed24b92d90aa7) by Coffeek (https://sketchfab.com/coffe0wolf) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

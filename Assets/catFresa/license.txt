@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute Cat with Strawberries
+* source:	https://sketchfab.com/3d-models/cute-cat-with-strawberries-769a5fa758de449e8154a6bbd33e9220
+* author:	jiayingc (https://sketchfab.com/jiayingc)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute Cat with Strawberries" (https://sketchfab.com/3d-models/cute-cat-with-strawberries-769a5fa758de449e8154a6bbd33e9220) by jiayingc (https://sketchfab.com/jiayingc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
