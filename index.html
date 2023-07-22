@@ -1,0 +1,195 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image-aframe.prod.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <a-scene 
+      scene-manager
+      mindar-image="imageTargetSrc: ./targets.mind" 
+      color-space="sRGB" 
+      renderer="colorManagement: true, physicallyCorrectLights" 
+      vr-mode-ui="enabled: false" 
+      device-orientation-permission-ui="enabled: false">
+      <!-- <a-scene 
+      scene-manager
+      color-space="sRGB" 
+      renderer="colorManagement: true, physicallyCorrectLights" 
+      vr-mode-ui="enabled: false" 
+      device-orientation-permission-ui="enabled: false"> -->
+      <a-assets>
+        <a-asset-item id="catBed" src="./Assets/catBed/scene.gltf"></a-asset-item>
+        <a-asset-item id="catControl" src="./Assets/catControl/scene.gltf"></a-asset-item>
+        <a-asset-item id="catFresa" src="./Assets/catFresa/scene.gltf"></a-asset-item>
+        <a-asset-item id="catFridge" src="./Assets/catFridge/scene.gltf"></a-asset-item>
+        <a-asset-item id="catSleep" src="./Assets/catSleep/scene.gltf"></a-asset-item>
+        <a-asset-item id="cherries" src="./Assets/cherries/scene.gltf"></a-asset-item>
+        <a-asset-item id="halloween" src="./Assets/halloween/scene.gltf"></a-asset-item>
+        <a-asset-item id="halloweenTree" src="./Assets/halloweenTree/scene.gltf"></a-asset-item>
+        <a-asset-item id="huron" src="./Assets/huron/scene.gltf"></a-asset-item>
+        <a-asset-item id="cuteRoom" src="./Assets/cuteRoom/scene.glb"></a-asset-item>
+        <a-asset-item id="moon" src="./Assets/moon/scene.gltf"></a-asset-item>
+        <a-asset-item id="movie1" src="./Assets/movie1/scene.gltf"></a-asset-item>
+        <a-asset-item id="movie2" src="./Assets/movie2/scene.gltf"></a-asset-item>
+        <img src="./Assets/Flecha.png" id="flecha"/>
+        <a-mixin id="texta" 
+        position="0 0.6 1"
+        rotation="60 0 0"
+        scale="1 1 1"
+        text="align: center; anchor: center; wrapCount: 15;"></a-mixin>
+      </a-assets>
+      <a-camera 
+      id="camera"
+      position="0 0 10" 
+      look-controls="enabled: true"
+      raycaster="far: ${customFields.libVersion}; objects: .cantap"
+      cursor="fuse: false; rayOrigin: mouse;"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">  
+        <!-- <a-entity >   -->
+
+        <!-- <a-plane height = "2" width="2" position="0 0 0"> -->
+
+        <a-plane id="butonIzq" class="cantap" src="#flecha" position="-1 0 0" height="0.4" width="0.4" rotation="30 0 0"></a-plane>
+        <a-plane id="butonDer" class="cantap" src="#flecha" position="1 0 0" height="0.4" width="0.4" rotation="30 0 180"></a-plane>
+
+        <a-entity id="scene-0">
+          <a-entity 
+          position="0 0.3 0.7"
+          mixin="texta"
+          text="value: 
+          Holis crayolis amor, sabes quiero decirte un par de cositas...
+          ;"
+          ></a-entity>
+        </a-entity>
+        <a-entity id="scene-1">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          No puedo esperar que tengamos nuestra casita, con las ninias hermosas...
+          ;"></a-entity>
+          <a-gltf-model rotation="100 0 0 " position="0.2 0 0.2" scale="0.4 0.4 0.4" src="#catSleep" 
+                  animation="property: position; to: 0.2 0 0.28; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-2">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Podria verse asi todo cute kawaii!
+          ;"></a-entity>
+          <a-gltf-model rotation="80 -50 -50 " position="0 0 0.1" scale="0.008 0.008 0.008" src="#cuteRoom" 
+                  animation="property: position; to: 0 0 0.18; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-3">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          O puede verse asi bien halloweenesco 7w7!
+          ;"></a-entity>
+          <a-gltf-model rotation="60 0 0 " position="0.3 0 0.1" scale="0.2 0.2 0.2" src="#halloweenTree" 
+                  animation="property: position; to: 0.3 0 0.18; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-4">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          O por que no ambas? asi bien bonis <42
+          ;"></a-entity>
+          <a-gltf-model rotation="70 0 0 " position="0 0 0.6" scale="0.1 0.1 0.1" src="#halloween" 
+                  animation="property: position; to: 0 0 0.68; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-5">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Donde juguemos y tambien...
+          ;"></a-entity>
+          <a-gltf-model rotation="0 -90 -70 " position="0 0 0.6" scale="0.3 0.3 0.3" src="#catControl"  
+                  animation="property: position; to: 0 0 0.68; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-6">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Veamos cositas y hagamos de todo!
+          ;"></a-entity>
+          <a-gltf-model rotation="40 -90 -90 " position="-0.18 0.2 0.4" scale="0.4 0.4 0.4" src="#movie1"  
+                  animation="property: position; to: -0.18 0.2 0.48; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+          <a-gltf-model rotation="90 0 0 " position="0.3 -0.15 0.063" scale="1.5 1.5 1.5" src="#movie2"  
+                  animation="property: position; to: 0.3 -0.15 0.143; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-7">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Comeremos y cocinaremos muchito :33
+          ;"></a-entity>
+          <a-gltf-model rotation="70 -60 -60 " position="0 -0.1 0.05" scale="0.002 0.002 0.002" src="#catFridge"  
+                  animation="property: position; to: 0 -0.1 0.12; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-8">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Y obvi las ninias mimiran y mimiran...
+          ;"></a-entity>
+          <a-gltf-model rotation="110 0 0 " position="0 0 0.2" scale="1.5 1.5 1.5" src="#catBed"  
+                  animation="property: position; to: 0 0 0.28; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-9">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Y sere la chica mas afortunada asi como ya lo soy! ><
+          ;"></a-entity>
+          <a-gltf-model rotation="70 0 0 " position="0 0 0.05" scale="0.2 0.2 0.2" src="#catFresa"  
+                  animation="property: position; to: 0 0 0.1; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-10">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Tambien podrian haber nuevos ninios xD
+          ;"></a-entity>
+          <a-gltf-model rotation="80 0 0 " position="0 0 0" scale="0.025 0.025 0.025" src="#huron" 
+                  animation="property: position; to: 0 0 0.08; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+                  animation__2="property: rotation; to: 80 360 360; dur: 6000; easing: linear; loop: true;"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-11">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          Sera nuestro nidito de amor! /u\
+          ;"></a-entity>
+          <a-gltf-model rotation="60 0 0 " position="0 0 0.3" scale="0.2 0.2 0.2" src="#cherries"  
+                  animation="property: position; to: 0 0 0.38; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity id="scene-12">
+          <a-entity 
+          mixin="texta"
+          text="value: 
+          No puedo esperar <3 Feliz mesversario mi chica de la luna! te amito muchito! >//<
+          ;"></a-entity>
+          <a-gltf-model rotation="70 -50 -50 " position="0.06 0 0.1" scale="0.008 0.008 0.008" src="#moon" 
+                  animation="property: position; to: 0.06 0 0.18; dur: 1500; easing: easeInOutQuad; loop: true; dir: alternate"
+          ></a-gltf-model>
+        </a-entity>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
