@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+import { MindARThree } from 'mindar-image-three';
 AFRAME.registerComponent('scene-manager', {
     init: function () {
       var scenes = [] // document.querySelectorAll('[id^="scene-"]')
