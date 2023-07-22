@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ferret
+* source:	https://sketchfab.com/3d-models/ferret-075a4acad5e4495dba628ffdc875f265
+* author:	Gert-Jan van den Boom (https://sketchfab.com/alphafluff)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ferret" (https://sketchfab.com/3d-models/ferret-075a4acad5e4495dba628ffdc875f265) by Gert-Jan van den Boom (https://sketchfab.com/alphafluff) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
