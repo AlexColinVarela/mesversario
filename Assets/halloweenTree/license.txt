@@ -1,11 +1,11 @@
 Model Information:
-* title:	Spooky Halloween Display
-* source:	https://sketchfab.com/3d-models/spooky-halloween-display-ce4eda537a6a4579ad05ac7641c13c7e
-* author:	ROBOTKID (https://sketchfab.com/robotkid)
+* title:	The Halloween cat
+* source:	https://sketchfab.com/3d-models/the-halloween-cat-dba541e7635c49f190e2a32d9e67c6f9
+* author:	Enkarra (https://sketchfab.com/Enkarra)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Spooky Halloween Display" (https://sketchfab.com/3d-models/spooky-halloween-display-ce4eda537a6a4579ad05ac7641c13c7e) by ROBOTKID (https://sketchfab.com/robotkid) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "The Halloween cat" (https://sketchfab.com/3d-models/the-halloween-cat-dba541e7635c49f190e2a32d9e67c6f9) by Enkarra (https://sketchfab.com/Enkarra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
